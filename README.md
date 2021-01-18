@@ -13,7 +13,7 @@ Landsat data provided by the USGS are distributed as a single file in an archive
 
 <br />There are [enhancements and changes between Collection 1 and Collection 2 Level-1 metadata](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-metadata), the current highest version of ENVI (ENVI 5.6) has not yet supported the reading of Landsat Collection 2 MTL files.<br />
 
-<br />Modifying the MTL file in batches manually is time-consuming, so I create a script to do it: 
+<br />Modifying the MTL file in batches manually is time-consuming, here is a script to do it: 
 <br />**Put the MTL files of Collection 2 format into the ****inputs folder**** in the same directory. After the script runs, the converted MTL file of Collection 1 format will be generated in the ****outputs folder**** in the same directory.**<br />
 
 <br />In this repository, you can find:
