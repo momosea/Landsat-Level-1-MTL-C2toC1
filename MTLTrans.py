@@ -77,4 +77,5 @@ for file in files:
             print("Save failed")
         else:
             print("Saved successfully")
-        temp=input("Press the enter key to exit...")
+    print("\n")
+temp=input("Press the enter key to exit...")
