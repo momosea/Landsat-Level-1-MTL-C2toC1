@@ -26,6 +26,6 @@ In this repository, you can find:
 - **Sample files in inputs folder and outputs folders.**
 
 **Note:** 
-There is no **GROUP = PRODUCT_PARAMETERS** in the sample MTL files, so **"Can't find PRODUCT_PARAMETERS"** will be printed. This error has no effect on the generation result.
+There is no GROUP of PRODUCT_PARAMETERS in the sample MTL file "LC08_L1GT_120038_20210105_20210105_02_RT_MTL.txt", so **"Can't find PRODUCT_PARAMETERS"** will be printed. This error has no effect on the generation result.
 
 
