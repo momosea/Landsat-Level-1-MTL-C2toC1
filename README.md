@@ -25,5 +25,6 @@ In this repository, you can find:
 - **An executable file for more convenient use bundled by package **[**PyInstaller**](https://www.pyinstaller.org/)**;**
 - **Sample files in inputs folder and outputs folders.**
 
+Note: There is no GROUP of PRODUCT_PARAMETERS in the sample MTL files, so **"Can't find PRODUCT_PARAMETERS"** will be printed. This error has no effect on the generation result.
 
 
