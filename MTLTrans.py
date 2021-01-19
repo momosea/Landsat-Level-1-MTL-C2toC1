@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 import re
 from pathlib import Path
 
@@ -55,14 +55,14 @@ def RenameText(text, dic):
     return data
 
 
-# ====================================================================================
+# ==================================================================================== #
 current_path = Path.cwd()
 files = Path("/").joinpath(current_path, "inputs").rglob("*.txt")
 
 for file in files:
     if file.exists():
         inputs = open(str(file), "r").read()
-
+        file_name = file.name
         inputs = RemoveText(remove_texts)
         output = ["GROUP = L1_METADATA_FILE"]
         ReconstructText(reconstruct_texts)
@@ -74,8 +74,7 @@ for file in files:
         try:
             fsave = open(str(savefile), "w").write(str_output)
         except IOError:
-            print("Save failed")
+            print(file_name + " save failed\n")
         else:
-            print("Saved successfully")
-    print("\n")
-temp=input("Press the enter key to exit...")
+            print(file_name + " saved successfully\n")
+temp = input("Press the enter key to exit...")
